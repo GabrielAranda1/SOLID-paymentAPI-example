@@ -75,9 +75,9 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
 
 - Header da requisição
 
-  ```
+```
   "Authorization": "Bearer <<token gerado no login>>"
-  ```
+```
 
 - Corpo da requisição
 
