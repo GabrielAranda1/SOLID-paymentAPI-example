@@ -38,11 +38,15 @@ $ yarn dev or npm run dev
 
 ```
 
+## Disponibilidade
+
+A aplicação pode ser testada online pelo endereço padrão https://money-transfer-example.herokuapp.com ou localmente em http://localhost:3333
+
 ## Endpoints
 
 Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resposta esperada.:
 
-1. GET http://localhost:3333/users - Criar uma nova conta
+1. GET https://money-transfer-example.herokuapp.com/users - Criar uma nova conta
 
 - Corpo da requisição
 
@@ -56,7 +60,7 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
 }
 ```
 
-2. POST http://localhost:3333/login - Realizar login
+2. POST https://money-transfer-example.herokuapp.com/login - Realizar login
 
 - Corpo da requisição
 
@@ -67,7 +71,7 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
 }
 ```
 
-3. POST http://localhost:3333/transaction - Criar nova transação
+3. POST https://money-transfer-example.herokuapp.com/transaction - Criar nova transação
 
 - Header da requisição
 
@@ -87,7 +91,7 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
 }
 ```
 
-4. GET http://localhost:3333/user/((ID do usuario)) - Visualizar saldo da conta
+4. GET https://money-transfer-example.herokuapp.com/user/((ID do usuario)) - Visualizar saldo da conta
 
 - Header da requisição
 
@@ -95,7 +99,7 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
     "Authorization": "Bearer <<token gerado no login>>"
 ```
 
-5. PUT http://localhost:3333/transaction/((ID da transação)) - Estornar transação
+5. PUT https://money-transfer-example.herokuapp.com/transaction/((ID da transação)) - Estornar transação
 
 - Header da requisição
 
@@ -103,7 +107,7 @@ Aqui consta todos os endpoints locais e o que deve ser enviado para obter a resp
     "Authorization": "Bearer <<token gerado no login>>"
 ```
 
-6. GET http://localhost:3333/transactions/((ID do usuário))?from=((data início))&to=((data final)) - Listar transações em um período de tempo
+6. GET https://money-transfer-example.herokuapp.com/transactions/((ID do usuário))?from=((data início))&to=((data final)) - Listar transações em um período de tempo
 
 - Header da requisição
 
