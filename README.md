@@ -1,6 +1,6 @@
-# Desafio Backend UmHelp
+# Exemplo de API de pagamentos com Login
 
-Este projeto consiste em um exemplo de transferências eletrônicas realizadas entre contas, feito como um teste para a vaga de backend developer na UmHelp.
+Este projeto consiste em um exemplo de transferências eletrônicas realizadas entre contas.
 
 ## Tecnologias
 
