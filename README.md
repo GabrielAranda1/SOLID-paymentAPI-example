@@ -22,7 +22,7 @@ Para executar o projeto localmente, é necessario realizar os seguintes passos:
 
 ```
 # 1. Clone o repositório localmente
-$ git clone 'https://github.com/GabrielAranda1/Happy.git'
+$ git clone 'https://github.com/GabrielAranda1/SOLID-paymentAPI-example'
 
 # 2. Instale as dependências
 $ yarn install ou npm install
